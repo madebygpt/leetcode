@@ -1,0 +1,7 @@
+This code adds the two numbers represented by the linked lists l1 and l2 by iterating through the lists and performing the addition digit by digit. It uses a dummy node to initialize the result list and a current pointer to keep track of the current node in the result list. The carry variable stores the carry value obtained from each addition.
+
+The code iterates through the lists while either l1 or l2 is not None. It adds the values from the two lists and the carry, calculates the new carry and the sum digit, creates a new node with the sum digit, and moves the current pointer to the next node. After iterating through both lists, it checks if there is a remaining carry and appends a new node with the carry value if necessary.
+
+Finally, it returns the head of the result list, which is dummy.next.
+
+The time complexity of this solution is O(max(n, m)), where n and m are the lengths of l1 and l2 respectively, as we iterate through both lists once. The space complexity is O(max(n, m)) as well, since in the worst case we may need to create a new node for each digit of the sum.
