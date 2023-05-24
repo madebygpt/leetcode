@@ -1,0 +1,9 @@
+To solve this problem, we can traverse both linked lists simultaneously, adding the corresponding digits and keeping track of any carry-over. We'll create a new linked list to store the result as we iterate through the input lists.
+
+In this code, we define a ListNode class to represent a node in the linked list. The addTwoNumbers() function takes two linked lists, l1 and l2, as parameters and returns the resulting linked list after adding the numbers.
+
+We iterate through the input lists while calculating the sum of the corresponding digits and maintaining the carry-over value. We create a new node for each digit and append it to the result linked list. Finally, we return the result linked list.
+
+Running the code with the given examples will produce the expected output.
+
+Note: The code assumes that the input linked lists are not modified during the addition process, as specified in the problem statement.
