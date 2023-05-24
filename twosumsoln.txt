@@ -1,7 +1,0 @@
-To solve this problem, we can use a dictionary to store the complement of each number we encounter while iterating through the input array. Here's the Python code to find the indices of two numbers that add up to the target.
-
-The `twoSum()` function takes the input array `nums` and the target sum as parameters. We iterate through the array, calculating the complement of each number and checking if it exists in the dictionary. If it does, we have found the pair of numbers that add up to the target, and we return their indices. Otherwise, we add the number to the dictionary with its index. If no valid solution is found, we return an empty list.
-
-Running the code with the given examples will produce the expected output.
-
-Note: The solution assumes that there is exactly one valid answer in the input array, as stated in the problem constraints.
